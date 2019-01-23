@@ -1,0 +1,44 @@
+.modalClose{
+    border-radius: 500px;
+    border: 1px solid grey;
+    float: right;
+    height: 30px;
+    width: 30px;
+}
+
+.success{
+    color: blue;
+    background-color: lightblue;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.error{
+    color: red;
+    background-color: lightcoral;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.profilePic{
+    height: 200px;
+}
+
+.userDetails{
+    border-radius: 5px;
+    padding: 10px;
+    &:hover{
+        background-color: lightgrey;
+    }
+}
+
+.profile{
+    float: left;
+    padding: 20px;
+    margin-right: 20px;
+}
+
+.adresses{
+    padding: 20px;
+    float: left;
+}

@@ -1,0 +1,23 @@
+form{
+    input{
+        padding: 10px;
+        margin: 10px;
+        border: 1px solid lightgrey;
+        border-radius: 3px;
+    }
+
+    img{
+        padding: 10px;
+        margin: 10px;
+        border: 1px solid lightgrey;
+        border-radius: 3px;
+    }
+
+    .submit{
+        &:active{
+            padding: 8px;
+            background-color: lightslategrey;
+            color:white;
+        }
+    }
+}

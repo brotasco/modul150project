@@ -1,0 +1,36 @@
+nav{
+    padding: 25px;
+    background-color: lightgrey;
+    .mainLabel{
+        font-size: xx-large;
+        padding-bottom: 20px;
+    }
+
+    ul{
+        li{
+            background-color: lightgrey;
+            padding: 10px;
+            text-decoration: none; 
+            display: inline-block;
+            border-right: 1px solid black;
+            a{
+                color: black;
+                text-decoration: none;
+            }
+        }
+    }
+
+    input{
+        &:active{
+            padding: 8px;
+            background-color: lightslategrey;
+            color:white;
+        }
+
+        float: right;
+        padding: 10px;
+        margin: 10px;
+        border: 1px solid lightgrey;
+        border-radius: 3px;
+    }
+}
